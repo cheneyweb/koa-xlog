@@ -1,0 +1,11 @@
+{
+    "log": {
+        "level": "warn",
+        "header": {
+            "loglist": ["content-type"]
+        }
+    },
+    "server": {
+        "port": 8085
+    }
+}
