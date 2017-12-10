@@ -17,7 +17,7 @@ Node后端微服务框架，基于koa-xlog中间件，异步日志
 
 快速上手
 >
-    1、const xauth = require('xlog')
+    1、const xauth = require('koa-xlog')
     2、app.use(xlog())
 
 帮助联系
