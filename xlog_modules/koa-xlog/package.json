@@ -1,6 +1,6 @@
 {
   "name": "koa-xlog",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Koa路由中间件，异步日志",
   "main": "index.js",
   "scripts": {
