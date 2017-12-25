@@ -21,7 +21,7 @@ app.use(router.routes())
 router.get('/test', async function (ctx, next) {
     ctx.body = 'hello'
 })
-// 3、POST日志
+// 2、POST日志
 router.post('/test', async function (ctx, next) {
     ctx.body = ctx.request.body
 })
@@ -29,5 +29,5 @@ router.post('/test', async function (ctx, next) {
 // 启动应用服务
 app.listen(port)
 log.info(`XLog服务启动【执行环境:${process.env.NODE_ENV},端口:${port}】`)
-log.info(`GET日志路径 【GET】【localhost:${port}/test`)
+log.info(`GET日志路径 【GET】【localhost:${port}/test】`)
 log.info(`POST日志路径【POST】【localhost:${port}/test】`)
