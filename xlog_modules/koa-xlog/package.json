@@ -1,14 +1,14 @@
 {
   "name": "koa-xlog",
-  "version": "0.2.0",
+  "version": "0.9.0",
   "description": "Koa路由中间件，异步日志",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "cheneyxu",
+  "license": "ISC",
   "dependencies": {
     "tracer": "^0.8.11"
-  },
-  "author": "cheneyxu",
-  "license": "ISC"
+  }
 }
