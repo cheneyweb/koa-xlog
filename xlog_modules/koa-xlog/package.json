@@ -1,6 +1,6 @@
 {
   "name": "koa-xlog",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Koa路由中间件，异步日志",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "cheneyxu",
   "license": "ISC",
   "dependencies": {
-    "tracer": "^0.8.11"
+    "tracer": "^0.8.12"
   }
 }
