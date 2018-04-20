@@ -2,7 +2,7 @@ const log = require('tracer').colorConsole()
 
 module.exports = function (logConfig = {}, logProcess) {
     logConfig = logConfig || {}
-    return function xauth(ctx, next) {
+    return function xlog(ctx, next) {
         log.info(ctx.method, `${ctx.header.host}${ctx.url}`)
         if (ctx.method != 'GET') {
             log.info('BODY', ctx.request.body)
