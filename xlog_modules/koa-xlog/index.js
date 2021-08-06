@@ -1,4 +1,4 @@
-const log = require('tracer').colorConsole()
+const log = require('tracer').console()
 
 module.exports = function (logConfig = {}, logProcess) {
     logConfig = logConfig || {}
