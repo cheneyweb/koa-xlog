@@ -4,9 +4,8 @@ module.exports = function (logConfig = {}, logProcess) {
   logConfig = logConfig || {};
 
   return function xlog(ctx, next) {
-
     // 日志内容
-    
+
     const logData = {
       BODY: undefined,
       header: undefined,
@@ -29,7 +28,7 @@ module.exports = function (logConfig = {}, logProcess) {
       logData.header = ctx.request.header;
     }
 
-    log.info(ctx.method, `${ctx.header.host}${ctx.url}`, logData);
+    log.debug(ctx.method, `${ctx.header.host}${ctx.url}`, logData);
 
     if (logProcess) {
       logProcess(ctx);
