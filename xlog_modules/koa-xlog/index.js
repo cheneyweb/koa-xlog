@@ -1,4 +1,4 @@
-const log = require("tracer").console();
+const log = require("tracer").console({ inspectOpt: { depth: 4 } });
 
 module.exports = function (logConfig = {}, logProcess) {
   logConfig = logConfig || {};
